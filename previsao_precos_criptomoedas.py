@@ -40,7 +40,7 @@ model.fit(X_train, y_train)
 # Fazendo previsões
 y_pred = model.predict(X_test)
 
-# Calculando a acurácia..
+# Calculando a acurácia...
 accuracy = accuracy_score(y_test, y_pred)
 print(f'Acurácia do modelo: {accuracy}')
 
